@@ -54,6 +54,10 @@ http://127.0.0.1:5000
 
 ![Catálogo de productos](screenshots/01_catalogo.png)
 
+### Header de Changoluisa Shop
+
+![Header de Changoluisa Shop](screenshots/05_header_changoluisa.png)
+
 ### Detalle de Estacion Aurora
 
 ![Detalle de producto](screenshots/02_detalle_producto.png)
