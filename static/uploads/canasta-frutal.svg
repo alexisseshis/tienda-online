@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Canasta Frutal</title>
+  <desc id="desc">Ilustracion de una canasta con frutas frescas.</desc>
+  <rect width="800" height="600" fill="#17483b"/>
+  <path d="M185 245h430l-42 235H227l-42-235Z" fill="#b45309"/>
+  <path d="M235 245c20-170 310-170 330 0" fill="none" stroke="#fbbf24" stroke-width="28"/>
+  <circle cx="290" cy="220" r="76" fill="#ef4444"/><circle cx="405" cy="190" r="80" fill="#f59e0b"/><circle cx="515" cy="225" r="72" fill="#84cc16"/>
+  <path d="M405 112c20-35 58-42 82-20-35 35-57 41-82 20Z" fill="#22c55e"/>
+  <path d="M250 300h300M260 350h280M270 400h260" stroke="#fcd34d" stroke-width="12" opacity=".8"/>
+  <circle cx="150" cy="110" r="26" fill="#fde047"/>
+</svg>

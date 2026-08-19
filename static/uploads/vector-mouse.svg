@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Mouse Vector Pro</title>
+  <desc id="desc">Ilustracion de un mouse ergonomico.</desc>
+  <rect width="800" height="600" fill="#12372a"/>
+  <ellipse cx="400" cy="320" rx="190" ry="230" fill="#d1fae5" transform="rotate(-20 400 320)"/>
+  <path d="M400 110v240" stroke="#059669" stroke-width="12"/>
+  <path d="M400 350c0 72-18 130-62 166" fill="none" stroke="#10b981" stroke-width="12"/>
+  <rect x="374" y="175" width="52" height="90" rx="24" fill="#34d399" transform="rotate(-20 400 220)"/>
+  <circle cx="400" cy="215" r="11" fill="#064e3b"/>
+  <path d="M250 510h300" stroke="#6ee7b7" stroke-width="10" stroke-linecap="round"/>
+</svg>

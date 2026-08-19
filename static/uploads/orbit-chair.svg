@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Silla Orbit</title>
+  <desc id="desc">Ilustracion de una silla ergonomica de oficina.</desc>
+  <rect width="800" height="600" fill="#4a2415"/>
+  <path d="M260 110c0-45 36-80 80-80h120c44 0 80 35 80 80v175H260V110Z" fill="#fb923c"/>
+  <path d="M295 155h210v120H295z" fill="#c2410c"/>
+  <path d="M280 285h240l65 125H215l65-125Z" fill="#fdba74"/>
+  <path d="M400 410v105M300 515h200" stroke="#fed7aa" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="285" cy="530" r="18" fill="#fed7aa"/><circle cx="515" cy="530" r="18" fill="#fed7aa"/>
+  <circle cx="400" cy="70" r="24" fill="#fde047"/>
+</svg>

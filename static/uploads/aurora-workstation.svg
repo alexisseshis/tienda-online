@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Estacion de trabajo Aurora</title>
+  <desc id="desc">Ilustracion de una computadora de escritorio moderna.</desc>
+  <rect width="800" height="600" fill="#102a43"/>
+  <rect x="90" y="90" width="620" height="340" rx="20" fill="#243b53"/>
+  <rect x="125" y="125" width="550" height="270" rx="10" fill="#7dd3fc"/>
+  <path d="M145 350L270 220l90 82 80-98 130 146H145Z" fill="#0e7490"/>
+  <circle cx="560" cy="190" r="42" fill="#fbbf24"/>
+  <rect x="355" y="450" width="90" height="30" rx="8" fill="#bcccdc"/>
+  <rect x="280" y="480" width="240" height="22" rx="11" fill="#829ab1"/>
+</svg>

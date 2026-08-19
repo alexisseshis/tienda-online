@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Academia Python Prisma</title>
+  <desc id="desc">Ilustracion de un curso digital de programacion.</desc>
+  <rect width="800" height="600" fill="#18324b"/>
+  <rect x="110" y="95" width="580" height="380" rx="24" fill="#f0fdf4"/>
+  <rect x="145" y="130" width="510" height="275" rx="12" fill="#0f766e"/>
+  <path d="m330 235-68 55 68 55M470 235l68 55-68 55M430 215l-60 150" fill="none" stroke="#fef08a" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="270" y="430" width="260" height="18" rx="9" fill="#5eead4"/>
+  <circle cx="660" cy="90" r="28" fill="#facc15"/>
+</svg>

@@ -1,0 +1,32 @@
+# Variables privadas
+.env
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs / temporales
+*.log
+*.tmp
+
+# Archivos subidos por usuarios en ejecución local
+# Se conservan los recursos de demostración versionados.
+static/uploads/*
+!static/uploads/default_product.svg
+!static/uploads/aurora-workstation.svg
+!static/uploads/nebula-keyboard.svg
+!static/uploads/vector-mouse.svg
+!static/uploads/orbit-chair.svg
+!static/uploads/prisma-python.svg
+!static/uploads/canasta-frutal.svg
