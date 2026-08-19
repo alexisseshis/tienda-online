@@ -1,9 +1,11 @@
 :root {
     --brand-900: #111827;
     --brand-800: #1f2937;
-    --brand-700: #312e81;
-    --brand-500: #6366f1;
-    --brand-100: #e0e7ff;
+    --brand-700: #0f766e;
+    --brand-500: #14b8a6;
+    --brand-100: #ccfbf1;
+    --header-ink: #12372a;
+    --header-accent: #f59e0b;
     --surface: #f6f7fb;
 }
 
@@ -12,13 +14,123 @@ body {
     color: var(--brand-900);
 }
 
-.navbar-brand {
+.site-header {
+    background: rgba(255, 255, 255, .94);
+    border-bottom: 1px solid rgba(18, 55, 42, .12);
+    box-shadow: 0 8px 24px rgba(18, 55, 42, .08);
+    backdrop-filter: blur(14px);
+}
+
+.header-inner {
+    min-height: 76px;
+}
+
+.brand-lockup {
+    align-items: center;
+    color: var(--header-ink);
+    display: inline-flex;
+    gap: .7rem;
+    margin-right: 2rem;
+}
+
+.brand-lockup:hover {
+    color: var(--brand-700);
+}
+
+.brand-mark {
+    align-items: center;
+    background: var(--header-ink);
+    border-radius: 12px;
+    color: #fef3c7;
+    display: inline-flex;
+    font-size: 1.15rem;
+    height: 40px;
+    justify-content: center;
+    transform: rotate(-4deg);
+    width: 40px;
+}
+
+.brand-copy {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.brand-name {
+    font-size: 1.05rem;
+    font-weight: 850;
+    letter-spacing: .01em;
+}
+
+.brand-word {
+    color: var(--brand-700);
+    font-size: .75rem;
     font-weight: 800;
-    letter-spacing: .2px;
+    letter-spacing: .18em;
+    margin-top: .24rem;
+    text-transform: uppercase;
 }
 
 .brand-dot {
-    color: #a5b4fc;
+    color: var(--header-accent);
+}
+
+.header-link {
+    color: #456255;
+    font-weight: 650;
+    padding-left: .85rem !important;
+    padding-right: .85rem !important;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--header-ink);
+}
+
+.header-cta {
+    background: var(--header-ink);
+    border-color: var(--header-ink);
+    color: white;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header-cta:hover,
+.header-cta:focus {
+    background: var(--brand-700);
+    border-color: var(--brand-700);
+    color: white;
+}
+
+.header-action {
+    border: 1px solid rgba(18, 55, 42, .22);
+    color: var(--header-ink);
+    font-weight: 650;
+}
+
+.header-action:hover,
+.header-action:focus {
+    background: var(--header-ink);
+    color: white;
+}
+
+.account-label {
+    color: var(--header-ink);
+    font-weight: 650;
+}
+
+.account-badge {
+    background: var(--brand-100);
+    color: var(--brand-700);
+}
+
+.header-toggler {
+    border: 1px solid rgba(18, 55, 42, .2);
+    color: var(--header-ink);
+    font-size: 1.35rem;
+    line-height: 1;
+    padding: .35rem .55rem;
 }
 
 .hero-panel {
@@ -103,4 +215,22 @@ body {
 .footer-note {
     color: #6b7280;
     font-size: .9rem;
+}
+
+@media (max-width: 991.98px) {
+    .header-inner {
+        min-height: 68px;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid rgba(18, 55, 42, .1);
+        margin-top: .7rem;
+        padding: .7rem 0;
+    }
+
+    .header-link,
+    .account-label {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 }

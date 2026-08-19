@@ -9,11 +9,14 @@
     <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
-    <div class="container">
-        <a class="navbar-brand" href="{{ url_for('inicio') }}">Changoluisa<span class="brand-dot">.</span> Shop</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir navegación">
-            <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg site-header sticky-top">
+    <div class="container header-inner">
+        <a class="navbar-brand brand-lockup" href="{{ url_for('inicio') }}">
+            <span class="brand-mark"><i class="bi bi-bag-heart-fill"></i></span>
+            <span class="brand-copy"><span class="brand-name">Changoluisa</span><span class="brand-word">Shop</span></span>
+        </a>
+        <button class="navbar-toggler header-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir navegación">
+            <i class="bi bi-list"></i>
         </button>
         <div class="collapse navbar-collapse" id="menuPrincipal">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -36,20 +39,20 @@
             <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
                 {% if session.get('usuario_id') %}
                 <li class="nav-item">
-                    <a class="nav-link position-relative" href="{{ url_for('ver_carrito') }}">
+                    <a class="nav-link header-link position-relative" href="{{ url_for('ver_carrito') }}">
                         <i class="bi bi-cart3 me-1"></i>Carrito
                         {% if cantidad_carrito %}<span class="badge rounded-pill text-bg-primary">{{ cantidad_carrito }}</span>{% endif %}
                     </a>
                 </li>
-                <li class="nav-item"><span class="nav-link text-light">{{ session.get('usuario_nombre') }} <span class="badge text-bg-secondary">{{ session.get('usuario_rol') }}</span></span></li>
+                <li class="nav-item"><span class="nav-link account-label"><i class="bi bi-person-circle me-1"></i>{{ session.get('usuario_nombre') }} <span class="badge account-badge">{{ session.get('usuario_rol') }}</span></span></li>
                 <li class="nav-item">
                     <form action="{{ url_for('logout') }}" method="post" class="d-inline">
-                        <button class="btn btn-sm btn-outline-light" type="submit">Cerrar sesión</button>
+                        <button class="btn btn-sm header-action" type="submit">Cerrar sesión</button>
                     </form>
                 </li>
                 {% else %}
-                <li class="nav-item"><a class="nav-link" href="{{ url_for('login') }}">Iniciar sesión</a></li>
-                <li class="nav-item"><a class="btn btn-sm btn-light mt-1 mt-lg-0" href="{{ url_for('registro') }}">Crear cuenta</a></li>
+                <li class="nav-item"><a class="nav-link header-link" href="{{ url_for('login') }}">Iniciar sesión</a></li>
+                <li class="nav-item"><a class="btn btn-sm header-cta mt-1 mt-lg-0" href="{{ url_for('registro') }}">Crear cuenta</a></li>
                 {% endif %}
             </ul>
         </div>

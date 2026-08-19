@@ -13,6 +13,7 @@ Proyecto académico de una tienda online desarrollada con **Flask, PostgreSQL, S
 - Carrito de compras.
 - Subida de imágenes de productos.
 - Mensajes `flash()` y diseño responsive con Bootstrap.
+- Header renovado con identidad visual de Changoluisa Shop y navegación responsive.
 
 ## Instalación
 
@@ -49,7 +50,7 @@ http://127.0.0.1:5000
 
 ## Evidencias
 
-### Catálogo actualizado
+### Catálogo actualizado y header renovado
 
 ![Catálogo de productos](screenshots/01_catalogo.png)
 
